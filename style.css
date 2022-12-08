@@ -49,7 +49,7 @@ section>div {
 
 
 section>div:hover {
-    transform: translate(1150px, 0);
+    transform: translate(calc(100vw - 320px), 0);
     transition-duration: 5s;
     transition-delay: 0.3s;
     transition-timing-function: linear;
